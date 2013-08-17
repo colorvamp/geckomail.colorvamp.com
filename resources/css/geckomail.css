@@ -1,0 +1,16 @@
+*{font-family:Helvetica, Arial, sans-serif;margin:0;padding:0;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;}
+body{background:#e7e7e7;color:#9a9a9a;}
+
+
+.body{width:1060px;margin:auto;vertical-align:top;}
+.body > aside{width:210px;display:inline-block;vertical-align:top;padding:20px 10px 0 0;}
+.body > aside .user{position:relative;min-height:42px;padding-bottom:10px;border-bottom:1px solid #d5d5d5;}
+.body > aside .user .image{position:absolute;}
+.body > aside .user .image > img{width:36px;}
+.body > aside .user .content{margin-left:42px;}
+.body > aside .user .content h2{font-size:14px;}
+.body > aside .user .content p{font-size:12px;}
+.body > div{width:840px;display:inline-block;vertical-align:top;background:white;color:black;padding:14px;}
+
+.footer{text-align:center;}
+
