@@ -45,4 +45,6 @@
 		$TEMPLATE['BLOG.JS'][] = '{%baseURL%}r/js/login.js';
 		common_renderTemplate('u/login');
 	}
+
+	function index_logout(){users_logout();header('Location: '.$GLOBALS['indexURL']);exit;}
 ?>

@@ -20,13 +20,19 @@
 					<div class="image"><img src="{%baseURL%}r/images/avatars/default/av64.png"/></div>
 					<div class="content">
 						<h2>{%user_userName%}</h2>
-						<p>Organize // Logout</p>
+						<p>Organize // <a href="{%baseURL%}logout">Logout</a></p>
 					</div>
 				</div>
+				<ul class="folders">
+					<li>Inbox</li>
+					<li>Sent</li>
+					<li>Important</li>
+					<li>Drafts</li>
+					<li>Trash</li>
+				</ul>
 			</aside>
 			<div>
-sdaed
-			{%MAIN%}
+				{%MAIN%}
 			</div>
 		</div>
 		<div class='footer'>
